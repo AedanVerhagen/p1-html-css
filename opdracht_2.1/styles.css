@@ -9,21 +9,28 @@ header * {
 }
 
 main * {
+    float: left;
     background-color: blueviolet;
 }
 
+h2 {
+    float: none;
+}
+
+p {
+    font-size: 19px;
+}
+
 img {
-    width: 50vw;
+    width: 49vw;
 }
 
 div .img {
-    float: left;
-    width: 50vw;
+    width: 49vw;
 }
 
 div .text {
-    float: left;
-    width: 50vw;
+    width: 49vw;
 }
 
 footer * {
