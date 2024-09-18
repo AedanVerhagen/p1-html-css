@@ -6,6 +6,77 @@
     <title>TUI-Boekingsformulier</title>
 </head>
 <body>
-    
+    <h1>Boekingsformulier</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="name">Voornaam</label></td>
+                <td><input type="text" name="name" pattern="[A-Za-z]"></td>
+            </tr>
+            <tr>
+                <td><label for="surname">Achternaam</label></td>
+                <td><input type="text" name="surname" pattern="[A-Za-z]"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Geslacht</label></td>
+                <td><input type="radio" name="gender" value="man" checked> Man <input type="radio" name="gender" value="vrouw"> Vrouw</td>
+            </tr>
+            <tr>
+                <td><label for="address">Adres</label></td>
+                <td><input type="text" name="address"></td>
+            </tr>
+            <tr>
+                <td><label for="postal code">Postcode</label></td>
+                <td><input type="text" name="postal code"></td>
+            </tr>
+            <tr>
+                <td><label for="city">Stad</label></td>
+                <td><input type="text" name="city"></td>
+            </tr>
+            <tr>
+                <td><label for="land">Land</label></td>
+                <td><input type="text" name="land"></td>
+            </tr>
+            <tr>
+                <td><label for="social security number">BSN-Nummer</label></td>
+                <td><input type="text" name="social security number" maxlength="9"></td>
+            </tr>
+            <tr>
+                <td><label for="destination">Vakantieland</label></td>
+                <td><select name="destination">
+                    <option value="Nederland">Nederland</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="Curacau">Curacau</option>
+                    <option value="Belgie">Belgie</option>
+                    <option value="Spanje">Spanje</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="date leave">Datum vertrek</label></td>
+                <td><input type="date" name="date leave" min="2024-09-18"></td>
+            </tr>
+            <tr>
+                <td><label for="date return">Datum terugkomst</label></td>
+                <td><input type="date" name="date return"></td>
+            </tr>
+            <tr>
+                <td><label for="companions">Aantal reisgenoten</label></td>
+                <td><input type="number" min="0" max="4"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Boek nu"></td>
+                <td><input type="reset"></td>
+            <tr>
+                <td><label for="e-mail">E-mail</label></td>
+                <td><input type="text" name="e-mail"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Wachtwoord</label></td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            </tr>
+          </table>
+
+    </form>
 </body>
 </html>
