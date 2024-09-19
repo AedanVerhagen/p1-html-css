@@ -6,8 +6,14 @@
 html {
   font-size: 62.5%;
 }
-body {
+body {  
   font-family: "Goldman", cursive;
+  background-image: url("./img/background.jpeg"); 
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center top;
+  background-attachment: fixed;
+  background-color: black;
 }
 
 nav {
@@ -37,3 +43,16 @@ nav a {
 nav img {
   width: 5vw;
 }
+
+footer {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  position: absolute;
+  bottom: 0;
+} 
