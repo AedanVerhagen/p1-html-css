@@ -26,6 +26,7 @@ img {
 }
 
 article {
+    width: 100vw;
     border: 2px solid #000000;
     border-radius: 7px;
     border-left: 5px solid #000000;
