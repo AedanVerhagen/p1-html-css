@@ -6,7 +6,7 @@
 html {
   font-size: 62.5%;
 }
-body {  
+#main {
   font-family: "Goldman", cursive;
   background-image: url("./img/background.jpeg"); 
   background-repeat: no-repeat;
@@ -14,6 +14,18 @@ body {
   background-position: center top;
   background-attachment: fixed;
   background-color: black;
+}
+.white {
+  font-family: "Goldman", cursive;
+  background-color: white;
+}
+.black {
+  font-family: "Goldman", cursive;
+  background-color: black;
+}
+#contact {
+  font-family: "Goldman", cursive;
+  background-color: white;
 }
 
 nav {
@@ -26,7 +38,9 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
-}
+  position: fixed;
+  top: 0;
+} 
 nav ul {
   display: flex;
   align-items: center;
@@ -44,15 +58,96 @@ nav img {
   width: 5vw;
 }
 
+main {
+  margin: auto;
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+main h1 {
+  display: inline-block;
+  width: 99vw;
+  font-size: 6rem;
+}
+main h2 {
+  font-size: 4rem;
+  text-align: left;
+}
+main p {
+  text-align: left;
+  line-height: 2rem;
+}
+main article {
+  float: left;
+  width: 40vw;
+  margin: 5vw;
+}
+.white main {
+  color: black;
+  top: 15%;
+}
+.white main img {
+  float: left;
+  width: 30vw;
+  margin: 5vw;
+}
+.black main {
+  color: white;
+  top: 15%;
+}
+.black main img {
+  float: right;
+  width: 30vw;
+  margin: 5vw;
+}
+#contact main {
+  color: black;
+  top: 15%;
+}
+#contact table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45vw;
+}
+#contact table * {
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  text-align: left;
+  width: 45vw;
+  border-radius: 1rem ;
+}
+#contact table input {
+  height: 4vh;
+}
+#bericht {
+  height:200px;
+}
+#submit {
+  border: 0;
+  background-color: #00a8c7;
+}
+#submit * {
+  text-align: center;
+  color: white;
+}
+
+.berichtInput{
+  width: 20px;
+  height: 200px;
+}
+
 footer {
-  display: flex;
   width: 100%;
   padding: 2rem;
   min-height: 10vh;
-  align-items: center;
-  flex-wrap: wrap;
   margin: auto;
   background: #00a8c7;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-} 
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
