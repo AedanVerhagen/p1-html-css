@@ -106,37 +106,25 @@ main article {
   color: black;
   top: 15%;
 }
-#contact table {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45vw;
-}
-#contact table * {
-  margin-top: 0.5vh;
-  margin-bottom: 0.5vh;
+#formContainer {
+  margin-left: 25vw;
+  width: 50vw;
   text-align: left;
-  width: 45vw;
-  border-radius: 1rem ;
 }
-#contact table input {
+#formContainer input {
+  width: 50vw;
+  border-radius: 0.5rem;
   height: 4vh;
+  margin-bottom: 2vh;
 }
-#bericht {
-  height:200px;
+#formContainer input#berichtInput {
+  height: 10vh;
 }
 #submit {
-  border: 0;
   background-color: #00a8c7;
-}
-#submit * {
-  text-align: center;
+  border: 0;
   color: white;
-}
-
-.berichtInput{
-  width: 20px;
-  height: 200px;
+  font-family: "Goldman", cursive;
 }
 
 footer {

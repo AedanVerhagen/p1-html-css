@@ -26,31 +26,17 @@
     </nav>  
     <main>
       <h1>Contact</h1>
-      <form action="">
-        <table>
-            <tr>
-                <td><label for="name">Naam</label></td>
-            </tr>
-            <tr>
-                <td><input type="text" name="name" pattern="[A-Za-z]"></td>
-            </tr>
-            <tr>
-                <td><label for="e-mail">E-mail</label></td>
-            </tr>
-            <tr>
-                <td><input type="email" name="e-mail"></td>
-            </tr>
-            <tr>
-                <td><label for="note">Bericht</label></td>
-            </tr>
-            <tr>
-                <td><input type="text" class="berichtInput" id="bericht" name="note"></td>
-            </tr>
-            <tr>
-                <td><input type="submit" id="submit" value="Versturen"></td>
-            </tr>
-        </table>
-      </form>
+      <div id="formContainer">
+        <form action="">
+          <label for="name">Naam</label>
+          <input type="text" name="name" pattern="[A-Za-z]">
+          <label for="e-mail">E-mail</label>
+          <input type="email" name="e-mail">
+          <label for="note">Bericht</label>
+          <input type="text" id="berichtInput" name="note">
+          <input type="submit" id="submit" value="Versturen">
+        </form>
+      </div>
     </main>
     <footer>
       <h2>Copyright Techniek College Rotterdam</h2>
