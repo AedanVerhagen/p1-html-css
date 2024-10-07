@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+div {
+    width: 200px;
+    height: 200px;
+}
+div#blue {
+    background-color: blue;
+}
+div#black {
+    background-color: black;
+}
+div#red {
+    background-color: red;
+}
+div#green {
+    background-color: green;
+}
