@@ -1,45 +1,80 @@
 body {
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 nav {
-    height: 5vh;
+    height: 7vh;
+    padding-left: 10px;
     text-align: left;
 }
 nav .logo {
+    display: none;  
+    position: fixed;
+    right: 2.5vh;
+    top: 2.5vh;
     width: 20px;
     height: 20px;
 }
 
 div {
-    height: 25vh;
+    padding: 1vh;
+    margin: 0;
+    height: 28.2vh;
     text-align: left;
 }
 
-
 @media (max-width: 420px) {
     body {
-        background-color: blue;
+        background-color: cornflowerblue;
     }
     div {
         text-align: center;
+        background-color: darkorchid;
+    }
+    div:first-of-type {
+        background-color: aquamarine;
+    }
+    div:last-of-type {
+        background-color: midnightblue;
+    }
+    nav .logo {
+        display: block;
+        background-color: aliceblue;
     }
 }
 
 @media (min-width: 420px) and (max-width: 840px) {
     body {
-        background-color: red;
+        background-color: lightcoral;
     }
     nav {
         text-align: center;
+    }
+    div:first-of-type {
+        background-color: indianred;
+    }
+    div {
+        background-color: royalblue;
+    }
+    div:last-of-type {
+        background-color: rgb(52, 89, 200);
     }
 }
 
 @media (min-width: 840px) {
     body {
-        background-color: green;
+        background-color: indianred;
+    }
+    div:first-of-type {
+        background-color: gold;
     }
     div {
         color: black;
+        background-color: chocolate;
+    }
+    div:last-of-type {
+        background-color: rgba(172, 255, 47, 0.731);
     }
 }
