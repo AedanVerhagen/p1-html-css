@@ -29,12 +29,12 @@ div {
     body {
         background-color: cornflowerblue;
     }
+    div:first-of-type {
+        background-color: aquamarine;
+    }
     div {
         text-align: center;
         background-color: darkorchid;
-    }
-    div:first-of-type {
-        background-color: aquamarine;
     }
     div:last-of-type {
         background-color: midnightblue;
